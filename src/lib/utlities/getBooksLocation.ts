@@ -34,7 +34,7 @@ export const handleSupabase = async () => {};
 
 const handleAiModel = async (bookName: string): Promise<AiReturnType> => {
 	try {
-		const genAI = new GoogleGenerativeAI('AIzaSyBl_4mojkgTB-ZIH2HDUoejXlaAXPgmnlE');
+		const genAI = new GoogleGenerativeAI('');
 		const schema = {
 			description: 'book setails',
 			type: SchemaType.OBJECT,
